@@ -2,8 +2,6 @@
 
 namespace ContosoUniversity.Models
 {
-	public class Enrollment
-	{
 		public enum Grade
 		{
 			A, B, C, D, F
@@ -20,5 +18,4 @@ namespace ContosoUniversity.Models
 			public Course Course { get; set; }
 			public Student Student { get; set; }
 		}
-	}
 }
